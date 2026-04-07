@@ -208,7 +208,7 @@ function testFullFlow() {
 - The script retries transcript detection up to **3 times** (10 min + 5 min + 5 min = up to 20 minutes after meeting end)
 - Gemini notes must be saved to the same Google Drive account running the script
 - The trigger activates only for events where `TRIGGER_EMAIL` is among the participants — no Meet link check is performed since Google Calendar does not always populate the location field
-- Assignee matching uses three keys per user: full name, first name, and email — so Gemini can resolve mentions like "Carlo" or "carlo.gambirasio@..." to the same Linear user ID
+- Assignee matching uses three keys per user: full name, first name, and email — so Gemini can resolve mentions to the same Linear user ID
 
 ---
 
